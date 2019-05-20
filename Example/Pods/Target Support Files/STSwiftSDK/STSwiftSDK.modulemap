@@ -1,0 +1,6 @@
+framework module STSwiftSDK {
+  umbrella header "STSwiftSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

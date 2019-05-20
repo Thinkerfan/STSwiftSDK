@@ -1,0 +1,16 @@
+PODS:
+  - STSwiftSDK (0.1.0)
+
+DEPENDENCIES:
+  - STSwiftSDK (from `../`)
+
+EXTERNAL SOURCES:
+  STSwiftSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STSwiftSDK: bb412f475f47ff04b24c45cf8472f899ddaf4950
+
+PODFILE CHECKSUM: bcca889eb7b686b4524e642d293fe61ad0746fd9
+
+COCOAPODS: 1.6.1
