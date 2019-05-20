@@ -1,0 +1,6 @@
+use_frameworks!
+target 'STSwiftSDK_Tests' do
+  pod 'STSwiftSDK', :path => '../'
+  
+  
+end
