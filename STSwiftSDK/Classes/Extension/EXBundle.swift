@@ -8,7 +8,7 @@
 
 import UIKit
 extension Bundle {
-    open static func appName() -> String {
+    public static func appName() -> String {
         guard let dictionary = Bundle.main.infoDictionary else {
             return ""
         }
@@ -19,7 +19,7 @@ extension Bundle {
         }
     }
 
-    open static func appVersion() -> String {
+    public static func appVersion() -> String {
         guard let dictionary = Bundle.main.infoDictionary else {
             return "V1.0.1"
         }
@@ -30,7 +30,7 @@ extension Bundle {
         }
     }
     
-   open static func appBundleID() -> String {
+   public static func appBundleID() -> String {
         return Bundle.main.bundleIdentifier!
     }
 }

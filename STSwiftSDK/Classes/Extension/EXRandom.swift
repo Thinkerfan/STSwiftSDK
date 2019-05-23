@@ -8,7 +8,7 @@
 
 import Foundation
 
-open struct Random {
+public struct Random {
 
     /// Returns random double number between two values
     public static func randomDouble(lower:Double=0,upper:Double=1.0) ->Double{
@@ -32,7 +32,7 @@ open struct Random {
 
 }
 
-struct CFMath {
+public struct CFMath {
     public static func roundTo(input:Double,places: Int) -> Double {
         let divisor = pow(10.0, Double(places))
         return (input * divisor).rounded() / divisor
