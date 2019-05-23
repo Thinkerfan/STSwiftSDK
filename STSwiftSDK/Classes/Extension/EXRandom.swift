@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Random {
+open struct Random {
 
     /// Returns random double number between two values
     public static func randomDouble(lower:Double=0,upper:Double=1.0) ->Double{

@@ -1,6 +1,6 @@
 //
 //  EXBundle.swift
-//  TodoList
+//  STSWiftSDK
 //
 //  Created by cfans on 2018/10/4.
 //  Copyright © 2018年 cfans. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 extension Bundle {
-    static func appName() -> String {
+    open static func appName() -> String {
         guard let dictionary = Bundle.main.infoDictionary else {
             return ""
         }
@@ -19,7 +19,7 @@ extension Bundle {
         }
     }
 
-    static func appVersion() -> String {
+    open static func appVersion() -> String {
         guard let dictionary = Bundle.main.infoDictionary else {
             return "V1.0.1"
         }
@@ -29,7 +29,8 @@ extension Bundle {
             return "V1.0.1"
         }
     }
-    static func appBundleID() -> String {
+    
+   open static func appBundleID() -> String {
         return Bundle.main.bundleIdentifier!
     }
 }
